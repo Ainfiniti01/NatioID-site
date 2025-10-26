@@ -3,7 +3,7 @@ import { Link, } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, } from "../assets";
+import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Adam &nbsp;
-            <span className='sm:block hidden'> | Ainfiniti</span>
+            <span className='block'> | Ainfiniti</span>
           </p>
         </Link>
 
@@ -64,12 +64,12 @@ const Navbar = () => {
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
-          {/* <img
+          <img
             src={toggle ? close : menu}
             alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            className='w-[28px] h-[28px] object-contain cursor-pointer'
             onClick={() => setToggle(!toggle)}
-          /> */}
+          />
 
           <div
             className={`${

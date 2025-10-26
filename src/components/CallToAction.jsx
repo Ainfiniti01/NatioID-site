@@ -19,7 +19,7 @@ const CallToAction = () => {
         “We’re open to partnerships, sponsorships, and pilot programs with government agencies, civic-tech organizations, and innovation hubs.”
       </motion.p>
 
-      <div className="mt-10 flex justify-center flex-row gap-4">
+      <div className="mt-10 flex justify-center flex-col sm:flex-row gap-4">
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}

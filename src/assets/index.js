@@ -13,6 +13,8 @@ import html from "./tech/html.png";
 import MobileApp from "./MobileApp.png";
 import WebApp from "./WebApp.png";
 import javascript from "./tech/javascript.png";
+import menu from "./menu.svg";
+import close from "./close.svg";
 
 export {
   logo,
@@ -29,4 +31,6 @@ export {
   git,
   html,
   javascript,
+  menu,
+  close,
 };

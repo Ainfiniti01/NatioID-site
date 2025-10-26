@@ -22,7 +22,7 @@ const ContactWidgets = () => {
 
   return (
     <>
-      <div className="fixed bottom-5 right-5 z-50">
+      <div className="fixed bottom-5 right-5 z-50 flex flex-col gap-3">
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
@@ -31,9 +31,6 @@ const ContactWidgets = () => {
         >
           <FaWhatsapp size={30} />
         </motion.button>
-      </div>
-
-      <div className="fixed bottom-5 left-5 z-50">
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
