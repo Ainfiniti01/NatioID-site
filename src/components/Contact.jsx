@@ -192,7 +192,7 @@ ${form.message}`;
         </form>
         <div className="mt-4 text-center">
           <a
-            href="/NatioID_Documentation.docx"
+            href="/assets/NatioID_Documentation.docx"
             download="NatioID_Documentation.docx"
             className="text-blue-400 hover:underline"
           >
