@@ -37,6 +37,15 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             transition={{ delay: 0.2 }}
+            className={`text-[16px] text-secondary mt-2`}
+          >
+            Your Digital Citizenship App
+          </motion.p>
+          <motion.p
+            variants={heroVariants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 0.3 }}
             className={`${styles.heroSubText} mt-2 text-white-100`}
           >
             “Modern governance through secure, transparent digital systems”
