@@ -199,6 +199,15 @@ ${form.message}`;
             Download NatioID Documentation (DOCX)
           </a>
         </div>
+        <div className="mt-4 text-center">
+          <a
+            href="/NatioID – National Digital Identity & Voting Platform.pptx"
+            download="NatioID – National Digital Identity & Voting Platform.pptx"
+            className="text-blue-400 hover:underline"
+          >
+            Download NatioID Presentation (PPTX)
+          </a>
+        </div>
       </motion.div>
 
       <motion.div
