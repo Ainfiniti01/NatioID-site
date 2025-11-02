@@ -5,11 +5,18 @@ import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const problems = [
+  " Youth disengagement",
   "Manual voter registration and paper-based ID management",
   "Electoral malpractice and low voter trust",
   "Limited youth engagement in governance",
   "Violence and crowding during physical polling",
   "Fragmented national identity systems",
+  "Data privacy and security concerns",
+  "Lack of transparency in election processes",
+  "Inefficient government services",
+  " Fraud & duplicate identities",
+  "Exclusion of marginalized groups",
+  "High costs of traditional ID and election systems",
 ];
 
 const ProblemStatement = () => {
@@ -18,20 +25,18 @@ const ProblemStatement = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>The Challenges</p>
         <h2 className={styles.sectionHeadText}>Problem Statement.</h2>
+
+        <h2 className="text-white font-bold text-[24px] text-center">
+        Many nations struggle with efficient digital identity systems and transparent elections.
+      </h2>
+      <h3 className="text-white font-bold text-[24px] text-center">
+        This results in:
+      </h3>
       </motion.div>
 
-      <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          “These issues create inefficiency, exclusion, and public distrust in democratic processes.”
-        </motion.p>
-      </div>
-
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 grid grid-cols-1 md:grid-cols-2 gap-10'>
         {problems.map((problem, index) => (
-          <div key={index} className='w-full'>
+          <div key={index} className=''>
             <motion.div
               variants={fadeIn("right", "spring", index * 0.5, 0.75)}
               className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'

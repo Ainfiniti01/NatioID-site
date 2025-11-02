@@ -16,6 +16,8 @@ import SolutionSummary from "./SolutionSummary";
 import Motivation from "./Motivation";
 import Collaborations from "./Collaborations";
 import VisionQuote from "./VisionQuote";
+import SecurityPrinciples from "./SecurityPrinciples";
+import BackgroundResearch from "./BackgroundResearch";
 
 
 export {
@@ -38,5 +40,7 @@ export {
   SolutionSummary,
   Motivation,
   Collaborations,
-  VisionQuote
+  VisionQuote,
+  SecurityPrinciples,
+  BackgroundResearch
 };

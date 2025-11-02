@@ -32,9 +32,23 @@ const LiveDemo = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]"
         >
-          This is a demo version developed to showcase a secure, modern approach to national digital identity and electronic voting. While it's currently frontend-only (no backend/API), it’s ready for customization and localization.
+          This is a demo version developed to showcase a secure, modern approach to national digital identity and electronic voting. This prototype demonstrates core flows and UI/UX for a national digital identity + e-voting system, it’s ready for customization and localization.
+        </motion.p>
+      </div>
+
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]"
+        >
+         Future versions will integrate:
+         <ul>
+          <li>✅ Backend identity services</li>
+          <li>✅ Cryptographic voting protocols</li>
+          <li>✅ Secure API infrastructure</li>
+         </ul>
         </motion.p>
       </div>
 

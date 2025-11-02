@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Hero, Navbar, Tech, StarsCanvas, ProblemStatement, SolutionSummary, LiveDemo, Screenshots, FeatureHighlights, CallToAction, ContactWidgets, Motivation, Collaborations, VisionQuote } from "./components";
+import { About, Contact, Hero, Navbar, Tech, StarsCanvas, ProblemStatement, SolutionSummary, LiveDemo, Screenshots, FeatureHighlights, CallToAction, ContactWidgets, Motivation, Collaborations, VisionQuote, SecurityPrinciples, BackgroundResearch } from "./components";
 import Footer from "./components/Footer";
 
 const App = () => {
