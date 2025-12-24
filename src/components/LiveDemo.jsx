@@ -20,6 +20,8 @@ const demos = [
 const LiveDemo = () => {
   return (
     <>
+    {/* <h2 className={`${styles.sectionHeadText}`}>The Challenges</h2>
+            <p className="text-white text-[30px]"><b>Problem Statement.</b></p> */}
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           Live Demo & Downloads

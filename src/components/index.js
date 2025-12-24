@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 import About from "./About";
 import LiveDemo from "./LiveDemo";
 import FeatureHighlights from "./FeatureHighlights";
-import Tech from "./Tech";
 import CallToAction from "./CallToAction";
 import Works from "./Works";
 import Contact from "./Contact";
@@ -24,7 +23,6 @@ export {
   Hero,
   Navbar,
   About,
-  Tech,
   Works,
   CallToAction,
   LiveDemo,

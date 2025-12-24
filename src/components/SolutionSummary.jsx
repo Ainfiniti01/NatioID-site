@@ -59,20 +59,25 @@ const SolutionSummary = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Our Solution</p>
-        <h2 className={`${styles.sectionHeadText}`}>Solution Summary.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Our Solution</h2>
+        {/* <p className={`${styles.sectionHeadText} `}>Solution Summary.</p> */}
+        <p className="text-white text-[30px]"><b>Solution Summary.</b></p>
+        
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[19px] max-w-7xl leading-[30px]"
         >
-          NatioID provides an integrated, digital-first solution.
+          NatioID is a prototype digital public infrastructure (DPI) model that unifies identity management and civic participation. 
+          It demonstrates how governments can deploy secure digital ID systems, remote voting, and transparent election administration — 
+          improving trust, inclusion, and efficiency in public service delivery.
         </motion.p>
+
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-10 flex flex-wrap gap-7">
         {solutions.map((solution, index) => (
           <SolutionCard key={`solution-${index}`} index={index} {...solution} />
         ))}

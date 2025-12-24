@@ -32,68 +32,68 @@ const services = [
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: "html.png",
-  },
-  {
-    name: "CSS 3",
-    icon: "css.png",
-  },
-  {
-    name: "JavaScript",
-    icon: "javascript.png",
-  },
-  {
-    name: "TypeScript",
-    icon: "typescript.png",
-  },
-  {
-    name: "React JS",
-    icon: "reactjs.png",
-  },
-  {
-    name: "Redux Toolkit",
-    icon: "redux.png",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: "tailwind.png",
-  },
-  {
-    name: "Node JS",
-    icon: "nodejs.png",
-  },
-  {
-    name: "MongoDB",
-    icon: "mongodb.png",
-  },
-  {
-    name: "Three JS",
-    icon: "threejs.svg",
-  },
-  {
-    name: "git",
-    icon: "git.png",
-  },
-  {
-    name: "figma",
-    icon: "figma.png",
-  },
-  {
-    name: "docker",
-    icon: "docker.png",
-  },
-  {
-    name: "mysql",
-    icon: "mysql.png",
-  },
-  {
-    name: "postgresql",
-    icon: "postgresql.png",
-  },
-];
+  // const technologies = [
+  //   {
+  //     name: "HTML 5",
+  //     icon: "html.png",
+  //   },
+  //   {
+  //     name: "CSS 3",
+  //     icon: "css.png",
+  //   },
+  //   {
+  //     name: "JavaScript",
+  //     icon: "javascript.png",
+  //   },
+  //   {
+  //     name: "TypeScript",
+  //     icon: "typescript.png",
+  //   },
+  //   {
+  //     name: "React JS",
+  //     icon: "reactjs.png",
+  //   },
+  //   {
+  //     name: "Redux Toolkit",
+  //     icon: "redux.png",
+  //   },
+  //   {
+  //     name: "Tailwind CSS",
+  //     icon: "tailwind.png",
+  //   },
+  //   {
+  //     name: "Node JS",
+  //     icon: "nodejs.png",
+  //   },
+  //   {
+  //     name: "MongoDB",
+  //     icon: "mongodb.png",
+  //   },
+  //   {
+  //     name: "Three JS",
+  //     icon: "threejs.svg",
+  //   },
+  //   {
+  //     name: "git",
+  //     icon: "git.png",
+  //   },
+  //   {
+  //     name: "figma",
+  //     icon: "figma.png",
+  //   },
+  //   {
+  //     name: "docker",
+  //     icon: "docker.png",
+  //   },
+  //   {
+  //     name: "mysql",
+  //     icon: "mysql.png",
+  //   },
+  //   {
+  //     name: "postgresql",
+  //     icon: "postgresql.png",
+  //   },
+  // ];
 
 const experiences = [
   {
@@ -272,7 +272,6 @@ const problemStatements = [
 
 export {
   services,
-  technologies,
   experiences,
   testimonials,
   projects,
