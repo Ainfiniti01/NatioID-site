@@ -5,7 +5,6 @@ import About from "./About";
 import LiveDemo from "./LiveDemo";
 import FeatureHighlights from "./FeatureHighlights";
 import CallToAction from "./CallToAction";
-import Works from "./Works";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import ContactWidgets from "./ContactWidgets";
@@ -23,7 +22,6 @@ export {
   Hero,
   Navbar,
   About,
-  Works,
   CallToAction,
   LiveDemo,
   FeatureHighlights,

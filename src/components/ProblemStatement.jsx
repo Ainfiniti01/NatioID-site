@@ -88,14 +88,6 @@ const problems = [
     title: "Rising governance costs",
     desc: "Physical polling, paper IDs, and manual verification systems increase long-term government expenditure."
   },
-  {
-    title: "Geopolitical instability & institutional pressure",
-    desc: "Many regions face governance disruption, civic unrest, and institutional capacity challenges — requiring resilient digital systems."
-  },
-  {
-    title: "Cyber & data protection challenges",
-    desc: "Governments must modernize identity and electoral systems to meet global cybersecurity, privacy, and compliance standards."
-  }
 ];
 
 
@@ -115,7 +107,7 @@ const ProblemStatement = () => {
         <p className="text-white text-[30px]"><b>Problem Statement.</b></p>
 
         <h2 className="text-white text-[22px] text-center">
-          Many nations struggle with efficient digital identity systems and transparent elections.
+          Current identity and voting systems face challenges that limit accessibility, trust, and participation.
         </h2>
         <h3 className="text-white text-[22px] text-center">
           This results in:

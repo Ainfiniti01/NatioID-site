@@ -7,17 +7,17 @@ import { fadeIn, textVariant } from "../utils/motion";
 const solutions = [
   {
     title: "Digital ID Registration",
-    description: "Citizens can securely create or link their national identities within the platform.",
+    description: "Users can create and manage digital identities within the system, enabling secure access to services and voting.",
     icon: "🪪",
   },
   {
     title: "Secure Mobile Voting",
-    description: "Enables safe, remote participation with verifiable transparency.",
+    description: "Demonstrates how secure and transparent voting can be done digitally with verifiable transparency and auditability.",
     icon: "🗳️",
   },
   {
     title: "Admin Control Panel",
-    description: "Provides tools to manage elections, candidates, and citizen verification seamlessly.",
+    description: "Provides tools to manage elections, candidates, and Users verification seamlessly.",
     icon: "🧭",
   },
   {
@@ -32,7 +32,7 @@ const solutions = [
   },
   {
     title: "Mobile Access (Citizen)",
-    description: "A mobile-friendly interface for citizens to register, participate, and stay informed.",
+    description: "A mobile-friendly interface for Users to register, participate, and stay informed.",
     icon: "📱",
   },
 ];
@@ -70,9 +70,7 @@ const SolutionSummary = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[19px] max-w-7xl leading-[30px]"
         >
-          NatioID is a prototype digital public infrastructure (DPI) model that unifies identity management and civic participation. 
-          It demonstrates how governments can deploy secure digital ID systems, remote voting, and transparent election administration — 
-          improving trust, inclusion, and efficiency in public service delivery.
+          NatioID demonstrates how identity and voting systems can be structured in a simple and transparent way using modern digital tools.
         </motion.p>
 
       </div>
