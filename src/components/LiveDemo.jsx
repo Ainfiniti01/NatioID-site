@@ -13,7 +13,7 @@ const demos = [
   {
     platform: "Citizen Mobile App (Android)",
     description: "Built with Expo (React Native)",
-    link: "https://expo.dev/accounts/ainfiniti/projects/natioid/builds/f66d46db-007c-4da7-9cda-db6db180115e",
+    link: "https://expo.dev/accounts/ainfiniti/projects/natioid/builds/0fc7245f-4214-4b4c-a950-0e1f2e903d4f",
   },
 ];
 

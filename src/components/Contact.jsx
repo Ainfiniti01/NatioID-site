@@ -20,6 +20,15 @@ const Contact = () => {
           This is an early prototype. Your feedback will help improve it.
         </p>
 
+        <div className='mt-5 rounded-xl border border-red-500/60 bg-red-500/10 p-4'>
+          <p className='text-red-300 font-bold text-[15px]'>Before you leave:</p>
+          <ul className='mt-2 text-white text-[15px] leading-7 list-disc list-inside'>
+            <li>Download and test the app/demo</li>
+            <li>Share what worked well</li>
+            <li>Share what should be improved</li>
+          </ul>
+        </div>
+
         {/*
           Previous contact form has been commented out and replaced with a
           single feedback CTA button that opens the Google Form.
@@ -29,12 +38,21 @@ const Contact = () => {
           href='https://docs.google.com/forms/d/e/1FAIpQLSfY_kTD7NbTns_MIHLzJogFYO64wDhpcGF-0KOPhQiN4k555w/viewform?usp=publish-editor'
           target='_blank'
           rel='noopener noreferrer'
-          className='inline-block mt-8 bg-secondary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary'
+          className='inline-block mt-8 bg-red-600 hover:bg-red-700 py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary'
         >
-          👉 Give Feedback
+          � Give Feedback
         </a>
 
-        <div className="mt-4 text-center">
+        <a
+          href='https://docs.google.com/forms/d/e/1FAIpQLSfY_kTD7NbTns_MIHLzJogFYO64wDhpcGF-0KOPhQiN4k555w/viewform?usp=publish-editor'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='inline-block mt-4 ml-0 sm:ml-4 border border-red-400 text-red-300 hover:bg-red-500/10 py-3 px-8 rounded-xl outline-none font-bold'
+        >
+          Share Quick Comment
+        </a>
+
+        {/* <div className="mt-4 text-center">
           <a
             href="/NatioID_Documentation.docx"
             download="NatioID_Documentation.docx"
@@ -51,7 +69,7 @@ const Contact = () => {
           >
             Download NatioID Presentation (PPTX)
           </a>
-        </div>
+        </div> */}
       </motion.div>
 
       <motion.div
