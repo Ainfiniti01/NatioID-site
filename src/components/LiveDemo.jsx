@@ -5,11 +5,11 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const demos = [
-  {
-    platform: "Admin Web Portal",
-    description: "For demo purposes, desktop view only",
-    link: "https://natio-id.vercel.app",
-  },
+  // {
+  //   platform: "Admin Web Portal",
+  //   description: "For demo purposes, desktop view only",
+  //   link: "https://natio-id.vercel.app",
+  // },
   {
     platform: "Citizen Mobile App (Android)",
     description: "Built with Expo (React Native)",
@@ -97,10 +97,10 @@ const LiveDemo = () => {
       </motion.div>
 
       <div className="mt-10 flex flex-wrap justify-center gap-10">
-        <div className="flex flex-col items-center">
+        {/* <div className="flex flex-col items-center">
           <img src="https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fnatio-id.vercel.app&qzone=1&margin=0&size=400x400&ecc=L" alt="Web App QR Code" className="w-48 h-48 object-contain" />
           <p className="text-white text-[17px] font-bold mt-2">WebApp</p>
-        </div>
+        </div> */}
         <div className="flex flex-col items-center">
           <img src="https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fexpo.dev%2Faccounts%2Fainfiniti%2Fprojects%2Fnatioid%2Fbuilds%2Ff66d46db-007c-4da7-9cda-db6db180115e&qzone=1&margin=0&size=400x400&ecc=L" alt="Mobile App QR Code" className="w-48 h-48 object-contain" />
           <p className="text-white text-[17px] font-bold mt-2">MobileApp</p>

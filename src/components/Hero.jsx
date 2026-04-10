@@ -83,7 +83,7 @@ const Hero = () => {
           onClick={() => window.location.href = '#demo'}
           className="bg-tertiary py-3 px-8 rounded-xl text-white font-bold shadow-md"
         >
-          Download Mobile App (APK)
+          Download & Try the App (APK)
         </button>
 
         <button
