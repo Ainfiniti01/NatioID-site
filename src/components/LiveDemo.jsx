@@ -4,18 +4,8 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const demos = [
-  // {
-  //   platform: "Admin Web Portal",
-  //   description: "For demo purposes, desktop view only",
-  //   link: "https://natio-id.vercel.app",
-  // },
-  {
-    platform: "Citizen Mobile App (Android)",
-    description: "Built with Expo (React Native)",
-    link: "https://expo.dev/accounts/ainfiniti/projects/natioid/builds/0fc7245f-4214-4b4c-a950-0e1f2e903d4f",
-  },
-];
+const apkLink =
+  "https://expo.dev/accounts/ainfiniti/projects/natioid/builds/0fc7245f-4214-4b4c-a950-0e1f2e903d4f";
 
 const LiveDemo = () => {
   return (
@@ -56,56 +46,40 @@ const LiveDemo = () => {
 
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-12 flex flex-col"
+        className="mt-10 rounded-2xl border border-violet-500/40 bg-black-100/90 p-6 sm:p-8"
       >
-        <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
-          <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-            <div className="overflow-hidden">
-              <table className="min-w-full">
-                <thead className="bg-black-200 border-b">
-                  <tr>
-                    <th scope="col" className="text-sm font-medium text-white px-6 py-4 text-left">
-                      Platform
-                    </th>
-                    <th scope="col" className="text-sm font-medium text-white px-6 py-4 text-left">
-                      Description
-                    </th>
-                    <th scope="col" className="text-sm font-medium text-white px-6 py-4 text-left">
-                      Link
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {demos.map((demo, index) => (
-                    <tr key={index} className="bg-black-100 border-b">
-                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-white">{demo.platform}</td>
-                      <td className="text-sm text-white font-light px-6 py-4 whitespace-nowrap">
-                        {demo.description}
-                      </td>
-                      <td className="text-sm text-white font-light px-6 py-4 whitespace-nowrap">
-                        <a href={demo.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-                          {demo.link}
-                        </a>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
+        <h3 className="text-white text-[22px] font-bold">Citizen Mobile App (Android)</h3>
+        <p className="text-secondary mt-2">Built with Expo (React Native).</p>
+
+        <div className="mt-6 flex flex-wrap gap-4">
+          <a
+            href={apkLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#7b46ef] hover:bg-[#5a32c6] py-3 px-8 rounded-xl text-white font-bold shadow-md"
+          >
+            Download APK
+          </a>
+
+          <a
+            href="#contact"
+            className="inline-block bg-red-600 hover:bg-red-700 py-3 px-8 rounded-xl text-white font-bold shadow-md"
+          >
+            Give Feedback
+          </a>
         </div>
       </motion.div>
 
-      <div className="mt-10 flex flex-wrap justify-center gap-10">
-        {/* <div className="flex flex-col items-center">
+      {/* <div className="mt-10 flex flex-wrap justify-center gap-10">
+        <div className="flex flex-col items-center">
           <img src="https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fnatio-id.vercel.app&qzone=1&margin=0&size=400x400&ecc=L" alt="Web App QR Code" className="w-48 h-48 object-contain" />
-          <p className="text-white text-[17px] font-bold mt-2">WebApp</p>
-        </div> */}
+          // <p className="text-white text-[17px] font-bold mt-2">WebApp</p>
+        </div>
         <div className="flex flex-col items-center">
           <img src="https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fexpo.dev%2Faccounts%2Fainfiniti%2Fprojects%2Fnatioid%2Fbuilds%2Ff66d46db-007c-4da7-9cda-db6db180115e&qzone=1&margin=0&size=400x400&ecc=L" alt="Mobile App QR Code" className="w-48 h-48 object-contain" />
           <p className="text-white text-[17px] font-bold mt-2">MobileApp</p>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

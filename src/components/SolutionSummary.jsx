@@ -7,40 +7,40 @@ import { fadeIn, textVariant } from "../utils/motion";
 const solutions = [
   {
     title: "Digital ID Registration",
-    description: "Users can create and manage digital identities within the system, enabling secure access to services and voting.",
+    description: "Secure creation and management of digital identities for access and civic use.",
     icon: "🪪",
   },
   {
     title: "Secure Mobile Voting",
-    description: "Demonstrates how secure and transparent voting can be done digitally with verifiable transparency and auditability.",
+    description: "A transparent and verifiable system for secure mobile-based voting.",
     icon: "🗳️",
   },
   {
     title: "Admin Control Panel",
-    description: "Provides tools to manage elections, candidates, and Users verification seamlessly.",
+    description: "Tools for managing elections, users, and verification in one place.",
     icon: "🧭",
   },
   {
     title: "Real-time Result Monitoring",
-    description: "Track election outcomes instantly with transparency and accountability.",
+    description: "Real-time tracking of election results with transparency and accountability.",
     icon: "📊",
   },
-  {
-    title: "Web Access (Admin)",
-    description: "A responsive, desktop-optimized portal for administrators and officials.",
-    icon: "🌐",
-  },
-  {
-    title: "Mobile Access (Citizen)",
-    description: "A mobile-friendly interface for Users to register, participate, and stay informed.",
-    icon: "📱",
-  },
+  // {
+  //   title: "Multi-Platform Access",
+  //   description: "",
+  //   icon: "🌐",
+  // },
+  // {
+  //   title: "Mobile Access (Citizen)",
+  //   description: "A mobile-friendly interface for Users to register, participate, and stay informed.",
+  //   icon: "📱",
+  // },
 ];
 
 const SolutionCard = ({ index, title, description, icon }) => (
   <motion.div
     variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-5 rounded-2xl sm:w-[360px] w-full"
+    className="bg-[#1a1f33] border border-violet-400/30 shadow-[0_0_20px_rgba(145,94,255,0.15)] p-5 rounded-2xl sm:w-[360px] w-full"
   >
     <div className="relative w-full h-[230px]">
       <div className="absolute inset-0 flex justify-center items-center text-6xl">
@@ -50,7 +50,7 @@ const SolutionCard = ({ index, title, description, icon }) => (
 
     <div className="mt-5">
       <h3 className="text-white font-bold text-[24px]">{title}</h3>
-      <p className="mt-2 text-secondary text-[14px]">{description}</p>
+      <p className="mt-2 text-white/80 text-[14px]">{description}</p>
     </div>
   </motion.div>
 );
@@ -70,7 +70,7 @@ const SolutionSummary = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[19px] max-w-7xl leading-[30px]"
         >
-          NatioID demonstrates how identity and voting systems can be structured in a simple and transparent way using modern digital tools.
+          NatioID demonstrates a simplified, transparent digital system for identity and civic participation.
         </motion.p>
 
       </div>

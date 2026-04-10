@@ -56,16 +56,16 @@ import { fadeIn, textVariant } from '../utils/motion';
 // ];
 
 const problems = [
+  // {
+  //   title: "Fragmented national identity systems",
+  //   desc: "Citizens often manage multiple IDs across agencies, resulting in duplication, fraud risk, and inefficient public services."
+  // },
   {
-    title: "Fragmented national identity systems",
-    desc: "Citizens often manage multiple IDs across agencies, resulting in duplication, fraud risk, and inefficient public services."
-  },
-  {
-    title: "Manual voter registration & outdated civic systems",
+    title: "Outdated and manual voter registration processes",
     desc: "Paper-based processes slow administration, increase errors, reduce accessibility, and create opportunities for manipulation."
   },
   {
-    title: "Low public trust & election credibility issues",
+    title: "Low trust in electoral transparency",
     desc: "Limited transparency and lack of verifiable digital audit trails reduce confidence in democratic institutions."
   },
   {
@@ -76,16 +76,16 @@ const problems = [
     title: "Security risks & identity fraud",
     desc: "Weak authentication enables duplicate IDs, unauthorized access, and fraudulent electoral participation."
   },
+  // {
+  //   title: "Election-day risks & logistics burden",
+  //   desc: "Crowded polling stations, long queues, and security challenges reduce turnout and increase election costs."
+  // },
   {
-    title: "Election-day risks & logistics burden",
-    desc: "Crowded polling stations, long queues, and security challenges reduce turnout and increase election costs."
-  },
-  {
-    title: "Limited inclusion for remote & vulnerable citizens",
+    title: "Limited inclusion for remote and vulnerable citizens",
     desc: "Rural residents, persons with disabilities, and displaced populations face barriers to accessing services and voting."
   },
   {
-    title: "Rising governance costs",
+    title: "High operational and governance costs",
     desc: "Physical polling, paper IDs, and manual verification systems increase long-term government expenditure."
   },
 ];

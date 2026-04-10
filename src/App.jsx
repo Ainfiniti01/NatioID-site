@@ -17,12 +17,12 @@ const App = () => {
         <LiveDemo />
         <Screenshots />
         <FeatureHighlights />
-        <Motivation />
-        <Collaborations />
-        <VisionQuote />
-        <About />
+        {/* <Motivation /> */}
+        {/* <Collaborations /> */}
+        {/* <VisionQuote /> */}
+        {/* <About /> */}
         <div className='relative z-0'>
-          <CallToAction />
+          {/* <CallToAction /> */}
           <Contact />
 
           <StarsCanvas />

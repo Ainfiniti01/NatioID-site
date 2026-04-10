@@ -68,7 +68,7 @@ const Hero = () => {
             className="mt-6 rounded-xl border border-red-500/60 bg-red-500/10 p-4"
           >
             <p className="text-red-300 font-bold text-[16px]">
-              What to do here (3 quick steps):
+              Try it out:
             </p>
             <ol className="mt-2 list-decimal list-inside text-white text-[15px] leading-7">
               <li>Download and try the mobile app (APK).</li>

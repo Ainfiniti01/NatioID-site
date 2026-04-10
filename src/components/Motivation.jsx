@@ -8,7 +8,7 @@ const Motivation = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Our Story</p>
+        {/* <p className={styles.sectionSubText}>Our Story</p> */}
         <h2 className={styles.sectionHeadText}>Motivation.</h2>
       </motion.div>
 

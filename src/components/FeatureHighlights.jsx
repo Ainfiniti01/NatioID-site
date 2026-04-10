@@ -6,7 +6,6 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const features = [
   "Role-based access control",
-  "Election setup & candidate registration",
   "Citizen voting interface",
   "Complaint & feedback system",
   "Campaign pages for candidates",
@@ -16,7 +15,7 @@ const features = [
 
 const FeatureHighlights = () => {
   return (
-    <div className="bg-black-100 rounded-[20px]">
+    <div className="bg-black-100/90 border border-violet-500/30 rounded-[20px] shadow-[0_0_25px_rgba(145,94,255,0.15)]">
       <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Features</p>
@@ -28,9 +27,9 @@ const FeatureHighlights = () => {
           <motion.div
             key={index}
             variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-            className="w-full p-5 rounded-2xl sm:w-[360px] bg-black-200"
+            className="w-full p-5 rounded-2xl sm:w-[360px] bg-[#1a1f33] border border-white/10 shadow-lg"
           >
-            <p className="text-white text-[18px]">✅ {feature}</p>
+            <p className="text-white text-[18px] font-medium">✅ {feature}</p>
           </motion.div>
         ))}
       </div>
