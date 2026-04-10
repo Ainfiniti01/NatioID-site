@@ -9,7 +9,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <h3 className={styles.sectionHeadText}>About</h3>
-        <p>NatioID was inspired by the growing need for transparent, inclusive, and technology-driven governance. It’s built as a civic innovation prototype — designed to demonstrate how nations can modernize identity and election systems with simplicity and security.”</p>
+        <p>NatioID was inspired by the growing need for transparent, inclusive, and technology-driven governance. It’s built as a civic innovation prototype, designed to demonstrate how nations can modernize identity and election systems with simplicity and security.”</p>
         <h2 className={styles.sectionHeadText}>Credits.</h2>
       </motion.div>
 

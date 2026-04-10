@@ -29,7 +29,7 @@ const Contact = () => {
           href='https://docs.google.com/forms/d/e/1FAIpQLSfY_kTD7NbTns_MIHLzJogFYO64wDhpcGF-0KOPhQiN4k555w/viewform?usp=publish-editor'
           target='_blank'
           rel='noopener noreferrer'
-          className='inline-block mt-8 bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary'
+          className='inline-block mt-8 bg-secondary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary'
         >
           👉 Give Feedback
         </a>

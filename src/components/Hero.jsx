@@ -90,7 +90,7 @@ const Hero = () => {
               className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md"
               onClick={() => window.location.href = '#contact'}
             >
-              Request Collaboration
+              Feedback & Comment (Feedback Form)
             </motion.button>
           </div>
         </div>
@@ -103,7 +103,7 @@ const Hero = () => {
       transition={{ delay: 0.5 }}
       className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center text-white text-sm text-center px-4"
     >
-      ⚠️ This is an experimental prototype. Currently open for testing & feedback.
+      ⚠️ This is an experimental prototype. Currently open for testing & <a href="#contact" className="text-[#496fd6] underline"><b>feedback</b></a>.
     </motion.p>
 
     </section>
