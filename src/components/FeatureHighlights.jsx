@@ -15,7 +15,7 @@ const features = [
 
 const FeatureHighlights = () => {
   return (
-    <div className="bg-black-100/90 border border-violet-500/30 rounded-[20px] shadow-[0_0_25px_rgba(145,94,255,0.15)]">
+    <div className="bg-black-100/90 border border-violet-500/30 rounded-[20px] shadow-[0_0_25px_rgba(124,58,237,0.12)]">
       <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Features</p>
@@ -27,7 +27,7 @@ const FeatureHighlights = () => {
           <motion.div
             key={index}
             variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-            className="w-full p-5 rounded-2xl sm:w-[360px] bg-[#1a1f33] border border-white/10 shadow-lg"
+            className="w-full p-5 rounded-2xl sm:w-[360px] bg-[#1e293b] border border-white/10 shadow-lg"
           >
             <p className="text-white text-[18px] font-medium">✅ {feature}</p>
           </motion.div>

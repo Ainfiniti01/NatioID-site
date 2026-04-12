@@ -56,7 +56,7 @@ const LiveDemo = () => {
             href={apkLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#7b46ef] hover:bg-[#5a32c6] py-3 px-8 rounded-xl text-white font-bold shadow-md"
+            className="inline-block bg-[#7c3aed] hover:bg-[#6d28d9] py-3 px-8 rounded-xl text-white font-bold shadow-md"
           >
             Download APK
           </a>

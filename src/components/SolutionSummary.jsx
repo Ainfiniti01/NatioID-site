@@ -40,7 +40,7 @@ const solutions = [
 const SolutionCard = ({ index, title, description, icon }) => (
   <motion.div
     variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-    className="bg-[#1a1f33] border border-violet-400/30 shadow-[0_0_20px_rgba(145,94,255,0.15)] p-4 sm:p-5 rounded-xl sm:rounded-2xl w-full"
+    className="bg-[#1e293b] border border-violet-400/30 shadow-[0_0_20px_rgba(124,58,237,0.12)] p-4 sm:p-5 rounded-xl sm:rounded-2xl w-full"
   >
     <div className="relative w-full h-[100px] xs:h-[120px] sm:h-[160px]">
       <div className="absolute inset-0 flex justify-center items-center text-4xl sm:text-5xl">

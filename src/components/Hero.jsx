@@ -12,7 +12,7 @@ const Hero = () => {
     <section className="relative w-full min-h-screen mx-auto pt-28 pb-10">
       <div className="max-w-7xl mx-auto px-6 flex flex-row items-start gap-5 w-full">
         <div className="flex flex-col justify-center items-center mt-5 flex-shrink-0">
-          <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+          <div className="w-5 h-5 rounded-full bg-[#8b5cf6]" />
           <div className="w-1 sm:h-[400px] h-[200px] violet-gradient" />
         </div>
 
@@ -24,7 +24,7 @@ const Hero = () => {
             className={`${styles.heroHeadText} text-white`}
           >
             NatioID –{" "}
-            <span className="text-[#915EFF]">
+            <span className="text-[#8b5cf6]">
               A Digital Identity & Civic Participation Prototype
             </span>
           </motion.h1>
