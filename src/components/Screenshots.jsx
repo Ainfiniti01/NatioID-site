@@ -45,18 +45,18 @@ const ScreenshotCard = ({ index, title, image }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="bg-black-200 p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer"
+      className="bg-black-200 p-3 sm:p-4 rounded-xl sm:rounded-2xl w-full cursor-pointer"
       onClick={handleClick}
     >
-      <div className="relative w-full h-[230px]">
+      <div className="relative w-full h-[110px] xs:h-[140px] sm:h-[220px]">
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover rounded-2xl"
+          className="w-full h-full object-cover rounded-lg sm:rounded-2xl"
         />
       </div>
-      <div className="mt-5">
-        <h3 className="text-white font-bold text-[24px]">{title}</h3>
+      <div className="mt-3 sm:mt-4">
+        <h3 className="text-white font-bold text-[12px] xs:text-[13px] sm:text-[20px] leading-snug">{title}</h3>
       </div>
     </motion.div>
   );
@@ -79,7 +79,7 @@ const Screenshots = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-10 grid grid-cols-2 gap-3 sm:gap-5">
         {screenshots.map((screenshot, index) => (
           <ScreenshotCard
             key={`screenshot-${index}`}

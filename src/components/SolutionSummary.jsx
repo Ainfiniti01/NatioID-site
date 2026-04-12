@@ -40,17 +40,17 @@ const solutions = [
 const SolutionCard = ({ index, title, description, icon }) => (
   <motion.div
     variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-    className="bg-[#1a1f33] border border-violet-400/30 shadow-[0_0_20px_rgba(145,94,255,0.15)] p-5 rounded-2xl sm:w-[360px] w-full"
+    className="bg-[#1a1f33] border border-violet-400/30 shadow-[0_0_20px_rgba(145,94,255,0.15)] p-4 sm:p-5 rounded-xl sm:rounded-2xl w-full"
   >
-    <div className="relative w-full h-[230px]">
-      <div className="absolute inset-0 flex justify-center items-center text-6xl">
+    <div className="relative w-full h-[100px] xs:h-[120px] sm:h-[160px]">
+      <div className="absolute inset-0 flex justify-center items-center text-4xl sm:text-5xl">
         {icon}
       </div>
     </div>
 
     <div className="mt-5">
-      <h3 className="text-white font-bold text-[24px]">{title}</h3>
-      <p className="mt-2 text-white/80 text-[14px]">{description}</p>
+      <h3 className="text-white font-bold text-[15px] xs:text-[16px] sm:text-[20px] leading-snug">{title}</h3>
+      <p className="mt-2 text-white/80 text-[12px] xs:text-[13px] sm:text-[14px] leading-relaxed">{description}</p>
     </div>
   </motion.div>
 );
@@ -75,7 +75,7 @@ const SolutionSummary = () => {
 
       </div>
 
-      <div className="mt-10 flex flex-wrap gap-7">
+      <div className="mt-10 grid grid-cols-2 gap-3 sm:gap-5">
         {solutions.map((solution, index) => (
           <SolutionCard key={`solution-${index}`} index={index} {...solution} />
         ))}

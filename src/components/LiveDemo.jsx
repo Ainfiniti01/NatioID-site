@@ -5,7 +5,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const apkLink =
-  "https://expo.dev/accounts/ainfiniti/projects/natioid/builds/0fc7245f-4214-4b4c-a950-0e1f2e903d4f";
+  "https://expo.dev/artifacts/eas/nKa9UwEaYEKmczowf37iNT.apk";
 
 const LiveDemo = () => {
   return (
@@ -62,7 +62,7 @@ const LiveDemo = () => {
           </a>
 
           <a
-            href="#contact"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfY_kTD7NbTns_MIHLzJogFYO64wDhpcGF-0KOPhQiN4k555w/viewform?usp=publish-editor"
             className="inline-block bg-red-600 hover:bg-red-700 py-3 px-8 rounded-xl text-white font-bold shadow-md"
           >
             Give Feedback

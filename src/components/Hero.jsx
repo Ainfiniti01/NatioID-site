@@ -74,8 +74,11 @@ const Hero = () => {
               <li>Download and try the mobile app (APK).</li>
               <li>Explore the demo and test the key features.</li>
               <li>
-                Click <span className="text-red-300 font-bold">Give Feedback</span> to
-                share your response.
+                Click <span className="text-red-300 font-bold">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfY_kTD7NbTns_MIHLzJogFYO64wDhpcGF-0KOPhQiN4k555w/viewform?usp=publish-editor" className="text-red-300 underline">
+                        Give Feedback
+                    </a>
+                    </span> to share your response.
               </li>
             </ol>
           </motion.div>
@@ -95,12 +98,15 @@ const Hero = () => {
               Explore Demo
             </button>
 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfY_kTD7NbTns_MIHLzJogFYO64wDhpcGF-0KOPhQiN4k555w/viewform?usp=publish-editor">
             <button
               onClick={() => (window.location.href = "#contact")}
               className="bg-red-600 hover:bg-red-700 py-3 px-8 rounded-xl text-white font-bold shadow-md"
             >
               🔴 Give Feedback Now
             </button>
+            </a>
+            
           </div>
         </div>
       </div>
